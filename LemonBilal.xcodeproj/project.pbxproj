@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF2722882A266C97000E4C3F /* lLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2722872A266C97000E4C3F /* lLemonApp.swift */; };
+		AF2722882A266C97000E4C3F /* LemonBilal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2722872A266C97000E4C3F /* LemonBilal.swift */; };
 		AF27228C2A266C99000E4C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF27228B2A266C99000E4C3F /* Assets.xcassets */; };
 		AF27228F2A266C99000E4C3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF27228E2A266C99000E4C3F /* Preview Assets.xcassets */; };
 		AF2722912A266C99000E4C3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2722902A266C99000E4C3F /* Persistence.swift */; };
@@ -30,8 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF2722842A266C97000E4C3F /* lLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF2722872A266C97000E4C3F /* lLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lLemonApp.swift; sourceTree = "<group>"; };
+		AF2722842A266C97000E4C3F /* LemonBilal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonBilal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2722872A266C97000E4C3F /* LemonBilal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonBilal.swift; sourceTree = "<group>"; };
 		AF27228B2A266C99000E4C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF27228E2A266C99000E4C3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF2722902A266C99000E4C3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		AF27227B2A266C97000E4C3F = {
 			isa = PBXGroup;
 			children = (
-				AF2722862A266C97000E4C3F /* lLemon */,
+				AF2722862A266C97000E4C3F /* LemonBilal */,
 				AF2722852A266C97000E4C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,12 +75,12 @@
 		AF2722852A266C97000E4C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF2722842A266C97000E4C3F /* lLemon.app */,
+				AF2722842A266C97000E4C3F /* LemonBilal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF2722862A266C97000E4C3F /* lLemon */ = {
+		AF2722862A266C97000E4C3F /* LemonBilal */ = {
 			isa = PBXGroup;
 			children = (
 				AF27229E2A266DD1000E4C3F /* Utilites.swift */,
@@ -88,12 +88,12 @@
 				AF27229C2A266D93000E4C3F /* Views */,
 				AF27229B2A266D8B000E4C3F /* Models */,
 				AF27229A2A266D82000E4C3F /* CoreData */,
-				AF2722872A266C97000E4C3F /* lLemonApp.swift */,
+				AF2722872A266C97000E4C3F /* LemonBilal.swift */,
 				AF27228B2A266C99000E4C3F /* Assets.xcassets */,
 				AF2722922A266C99000E4C3F /* lLemon.xcdatamodeld */,
 				AF27228D2A266C99000E4C3F /* Preview Content */,
 			);
-			path = lLemon;
+			path = LemonBilal;
 			sourceTree = "<group>";
 		};
 		AF27228D2A266C99000E4C3F /* Preview Content */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF2722832A266C97000E4C3F /* lLemon */ = {
+		AF2722832A266C97000E4C3F /* LemonBilal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF2722972A266C99000E4C3F /* Build configuration list for PBXNativeTarget "lLemon" */;
+			buildConfigurationList = AF2722972A266C99000E4C3F /* Build configuration list for PBXNativeTarget "LemonBilal" */;
 			buildPhases = (
 				AF2722802A266C97000E4C3F /* Sources */,
 				AF2722812A266C97000E4C3F /* Frameworks */,
@@ -162,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = lLemon;
+			name = LemonBilal;
 			productName = lLemon;
-			productReference = AF2722842A266C97000E4C3F /* lLemon.app */;
+			productReference = AF2722842A266C97000E4C3F /* LemonBilal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF27227F2A266C97000E4C3F /* Build configuration list for PBXProject "lLemon" */;
+			buildConfigurationList = AF27227F2A266C97000E4C3F /* Build configuration list for PBXProject "LemonBilal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF2722832A266C97000E4C3F /* lLemon */,
+				AF2722832A266C97000E4C3F /* LemonBilal */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 				AF2722A82A266F89000E4C3F /* MenuItem.swift in Sources */,
 				AF2722942A266C99000E4C3F /* lLemon.xcdatamodeld in Sources */,
 				AF2722AA2A266F9A000E4C3F /* MenuList.swift in Sources */,
-				AF2722882A266C97000E4C3F /* lLemonApp.swift in Sources */,
+				AF2722882A266C97000E4C3F /* LemonBilal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +362,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lLemon/Preview Content\"";
-				DEVELOPMENT_TEAM = 6H65T22SG4;
+				DEVELOPMENT_ASSET_PATHS = "\"LemonBilal/Preview Content\"";
+				DEVELOPMENT_TEAM = AZPYH388E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -376,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Listopadov.by.lLemon";
+				PRODUCT_BUNDLE_IDENTIFIER = bilal.maarbani.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -391,8 +391,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lLemon/Preview Content\"";
-				DEVELOPMENT_TEAM = 6H65T22SG4;
+				DEVELOPMENT_ASSET_PATHS = "\"LemonBilal/Preview Content\"";
+				DEVELOPMENT_TEAM = AZPYH388E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -405,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Listopadov.by.lLemon";
+				PRODUCT_BUNDLE_IDENTIFIER = bilal.maarbani.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF27227F2A266C97000E4C3F /* Build configuration list for PBXProject "lLemon" */ = {
+		AF27227F2A266C97000E4C3F /* Build configuration list for PBXProject "LemonBilal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF2722952A266C99000E4C3F /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF2722972A266C99000E4C3F /* Build configuration list for PBXNativeTarget "lLemon" */ = {
+		AF2722972A266C99000E4C3F /* Build configuration list for PBXNativeTarget "LemonBilal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF2722982A266C99000E4C3F /* Debug */,
