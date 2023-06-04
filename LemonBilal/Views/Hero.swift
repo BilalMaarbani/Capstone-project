@@ -2,7 +2,7 @@
 //  Hero.swift
 //  lLemon
 //
-//  Created by Artem Listopadov on 30.05.23.
+//  Created by Bilal Maarbani
 //
 
 import SwiftUI
